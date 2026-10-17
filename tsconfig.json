@@ -23,5 +23,10 @@
     },
     "allowImportingTsExtensions": true,
     "noEmit": true
-  }
+  },
+  "exclude": [
+    "exile-challenge-android",
+    "node_modules",
+    "dist"
+  ]
 }
