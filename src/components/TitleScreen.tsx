@@ -65,7 +65,7 @@ export const TitleScreen: React.FC<TitleScreenProps> = ({
         <div className="flex items-center gap-2">
           <Globe2 className="w-5 h-5 text-emerald-400" />
           <span className="text-xs uppercase tracking-widest font-mono text-slate-400 font-semibold">
-            Vexillology Arena
+            World Flags Challenge · Vexillology Arena
           </span>
         </div>
 
@@ -96,8 +96,8 @@ export const TitleScreen: React.FC<TitleScreenProps> = ({
         </div>
 
         {/* Bespoke Inline SVG Title Lockup */}
-        <div className="mb-3">
-          <svg viewBox="0 0 620 64" className="w-full max-w-xl h-auto mx-auto block font-display">
+        <div className="mb-3 w-full px-2">
+          <svg viewBox="0 0 760 64" className="w-full max-w-xl h-auto mx-auto block font-display overflow-visible">
             <defs>
               <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#FFFFFF" />
@@ -106,13 +106,13 @@ export const TitleScreen: React.FC<TitleScreenProps> = ({
               </linearGradient>
             </defs>
             <text
-              x="50%"
-              y="48"
+              x="380"
+              y="46"
               textAnchor="middle"
               fill="url(#titleGrad)"
-              fontSize="44"
+              fontSize="38"
               fontWeight="900"
-              letterSpacing="2"
+              letterSpacing="1.5"
             >
               WORLD FLAGS CHALLENGE
             </text>
